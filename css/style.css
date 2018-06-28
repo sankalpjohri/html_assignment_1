@@ -1,6 +1,7 @@
 body {
     background: white;
     margin-top: 75px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Style the header */
@@ -15,50 +16,51 @@ ul#header {
     position: relative
 }
 
-  ul#header li {
-      display: inline;
-      margin-right: 5px;
-      font-family: sans-serif;
-      font-size: medium;
-      font-weight: bold;
-      color: whitesmoke;
-      padding: 10px;
-  }
+ul#header li {
+    display: inline;
+    margin-right: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px;
+}
 
-  ui#header li :hover {
-      text-decoration: underline solid white
-  }
+ui#header li :hover {
+    text-decoration: underline solid white
+}
 
-  img#header_image {
-      height: auto;
-      width: 100px;
-      padding-bottom: 0%;
-      padding-top: 0%;
-  }
+img#header_image {
+    height: auto;
+    width: 100px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
 
-  a {
-      text-decoration: none;
-      color: whitesmoke;
-  }
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
-  a:visited {
-      color: whitesmoke;
-  }
+a:visited {
+    color: whitesmoke;
+}
 
-  a:hover {
-      text-decoration: underline solid whitesmoke;
-  }
+a:hover {
+    text-decoration: underline solid whitesmoke;
+}
 
-  .slider-holder {
-      margin-top: 10px;
-      float: left;
-      height: 380px;
-      width: 100%;
-  }
+.slider-holder {
+    margin-top: 10px;
+    float: left;
+    height: 380px;
+    width: 100%;
+}
 
 .hero-section {
     width: 100%;
     text-align: center;
+    background: #f9f9f9;
 }
 
 h1 {
@@ -78,4 +80,3 @@ div.hero-section img {
     margin-left: auto;
     margin-right: auto;
 }
-
