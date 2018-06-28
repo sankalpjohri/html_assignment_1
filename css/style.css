@@ -1,0 +1,58 @@
+body {
+    background: #1a394e
+}
+
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: white;
+    color: #1a394e;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  ul#header {
+      text-align: right;
+      position: relative
+  }
+
+  ul#header li {
+      display: inline;
+      margin-right: 5px;
+      font-family: sans-serif;
+      font-size: medium;
+      font-weight: bold;
+      color: #1a394e;
+      padding: 10px;
+  }
+
+  ui#header li :hover {
+      text-decoration: underline solid white
+  }
+
+  div#image_div {
+      position: absolute;
+      top: -10px;
+      left: 20px  
+  }
+
+  img#header_image {
+      height: auto;
+      width: 100px;
+      padding-bottom: 0%
+  }
