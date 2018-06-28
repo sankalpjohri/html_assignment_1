@@ -205,7 +205,8 @@ div.hero-section img {
 
 .footer {
   width: 100%;
-  height: 200px;
+  height: 50px;
+  margin-bottom: 0%;
   background: #1a394e;
   color: #f9f9f9;
   text-align: center;
@@ -214,15 +215,14 @@ div.hero-section img {
 .footer-list {
   text-decoration: none;
   float: left;
-  width: 33%;
+  width: 100 %;
 }
 
-ul#footer li {
+ul#footer-list-item li {
   display: inline;
   margin-right: 5px;
   font-family: 'Raleway', sans-serif;
   font-size: medium;
-  font-weight: bold;
   color: whitesmoke;
   padding: 10px;
 }
