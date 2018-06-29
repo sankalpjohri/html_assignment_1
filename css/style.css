@@ -3,6 +3,33 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+  color: #1a394e;
+  margin-top: -2%;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+p {
+  color: #1a394e;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+a:hover {
+  text-decoration: underline solid whitesmoke;
+}
+
 /* Style the header */
 
 .header {
@@ -40,26 +67,6 @@ img#header_image {
   margin: 0%;
 }
 
-a {
-  text-decoration: none;
-  color: whitesmoke;
-}
-
-a:visited {
-  color: whitesmoke;
-}
-
-a:hover {
-  text-decoration: underline solid whitesmoke;
-}
-
-.slider-holder {
-  margin-top: 10px;
-  float: left;
-  height: 380px;
-  width: 100%;
-}
-
 .hero-section {
   width: 100%;
   text-align: center;
@@ -67,25 +74,23 @@ a:hover {
   margin-bottom: 15%;
 }
 
-h1 {
-  color: #1a394e;
-  margin-top: -2%;
-  margin-left: auto;
-  margin-right: auto;
-} 
-
-p {
-  color: #1a394e;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 div.hero-section img {
   height: 600px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero-section-description-wrapper {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.hero-section-description {
+  float: left;
+  width: 33%;
+  border-right: 1px solid black;
+  color: #1a394e;
 }
 
 .info-section {
