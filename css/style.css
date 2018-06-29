@@ -1,19 +1,23 @@
 /*Defining default styles for the document*/
 
+:root {
+  --main-primary-color: #1a394e;
+}
+
 body {
   background: white;
   font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  color: #1a394e;
+  color: var(--main-primary-color);
   margin-top: -2%;
   margin-left: auto;
   margin-right: auto;
 }
 
 p {
-  color: #1a394e;
+  color: var(--main-primary-color);
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +40,7 @@ a:hover {
 
 .header {
   padding: 10px 16px;
-  background: #1a394e;
+  background: var(--main-primary-color);
   color: whitesmoke;
   position: fixed;
   width: 96.35%;
@@ -102,7 +106,7 @@ div.hero-section img {
   float: left;
   width: 33%;
   border-right: 1px solid black;
-  color: #1a394e;
+  color: var(--main-primary-color);
 }
 
 .info-section {
@@ -120,7 +124,7 @@ div.hero-section img {
   float: left;
   width: 33%;
   vertical-align: auto;
-  color: #1a394e;
+  color: var(--main-primary-color);
 }
 
 .info-description-right {
@@ -133,7 +137,7 @@ div.hero-section img {
   float: right;
   width: 33%;
   vertical-align: auto;
-  color: #1a394e;
+  color: var(--main-primary-color);
 }
 
 .info-description-left {
@@ -165,7 +169,7 @@ div.hero-section img {
   margin-top: 20px;
   height: 50px;
   width: 250px;
-  background: #1a394e;
+  background: var(--main-primary-color);
   color: #f9f9f9;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -174,7 +178,7 @@ div.hero-section img {
 
 .ui-button:hover {
   background: #f9f9f9;
-  color: #1a394e;
+  color: var(--main-primary-color);
 }
 
 /*Styling for the features page.*/
@@ -199,7 +203,7 @@ div.hero-section img {
 .features_header {
   margin-left: auto;
   margin-right: auto;
-  color: #1a394e;
+  color: var(--main-primary-color);
   text-align: center;
   margin-top: 1%
 }
@@ -225,7 +229,7 @@ div.hero-section img {
 .footer {
   width: 100%;
   height: 50px;
-  background: #1a394e;
+  background: var(--main-primary-color);
   color: #f9f9f9;
   text-align: center;
   margin-top: 10%;
