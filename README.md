@@ -1,2 +1,2 @@
 # html_assignment_1
-Assignment for the HTML5 and CSS Module.
+Assignment for the HTML5 and CSS Module. I have created a site for the car Ford GT. It has 2 pages - a landing page and a features page. The other nav items are mapped to dummy links.
