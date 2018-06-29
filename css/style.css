@@ -1,3 +1,4 @@
+/*Defining default styles for the document*/
 body {
   background: white;
   font-family: 'Raleway', sans-serif;
@@ -67,6 +68,15 @@ img#header_image {
   margin: 0%;
 }
 
+/*Defining the style for the video unit.*/
+.video-player {
+  width: 100%;
+  height: 250px;
+  margin-top: 7%;
+}
+
+/*Styling the hero unit.*/
+
 .hero-section {
   width: 100%;
   text-align: center;
@@ -102,6 +112,8 @@ div.hero-section img {
   color: grey;
 }
 
+/*Styling the information section*/
+
 .info-header-left {
   float: left;
   width: 33%;
@@ -127,6 +139,8 @@ div.hero-section img {
   width: 66%;
   vertical-align: auto;
 }
+
+/*Defining the styles for the images section.*/
 
 .image_section {
   text-align: center;
@@ -154,15 +168,9 @@ div.hero-section img {
   cursor: pointer;
 }
 
-.ui-button :hover {
+.ui-button:hover {
   background: #f9f9f9;
   color: #1a394e;
-}
-
-.video-player {
-  width: 100%;
-  height: 250px;
-  margin-top: 7%;
 }
 
 .logo_gallery {
@@ -208,6 +216,7 @@ div.hero-section img {
   margin-right: auto;
 }
 
+/*Defining the styling for the footer.*/
 .footer {
   width: 100%;
   height: 50px;
@@ -220,7 +229,7 @@ div.hero-section img {
 .footer-list {
   text-decoration: none;
   float: left;
-  width: 100 %;
+  width: 100%;
 }
 
 ul#footer-list-item li {
