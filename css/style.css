@@ -2,6 +2,7 @@
 
 :root {
   --main-primary-color: #1a394e;
+  --main-secondary-color: #f9f9f9;
 }
 
 body {
@@ -43,7 +44,7 @@ a:hover {
   background: var(--main-primary-color);
   color: whitesmoke;
   position: fixed;
-  width: 96.35%;
+  width: 100%;
 }
 
 ul#header {
@@ -86,7 +87,7 @@ img#header_image {
 .hero-section {
   width: 100%;
   text-align: center;
-  background: #f9f9f9;
+  background: var(--main-secondary-color);
   margin-bottom: 15%;
 }
 
@@ -151,7 +152,7 @@ div.hero-section img {
 .image_section {
   text-align: center;
   color: black;
-  background: #f9f9f9;
+  background: var(--main-secondary-color);
   padding: 20px;
 }
 
@@ -170,14 +171,14 @@ div.hero-section img {
   height: 50px;
   width: 250px;
   background: var(--main-primary-color);
-  color: #f9f9f9;
+  color: var(--main-secondary-color);
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   cursor: pointer;
 }
 
 .ui-button:hover {
-  background: #f9f9f9;
+  background: var(--main-secondary-color);
   color: var(--main-primary-color);
 }
 
@@ -230,21 +231,19 @@ div.hero-section img {
   width: 100%;
   height: 50px;
   background: var(--main-primary-color);
-  color: #f9f9f9;
+  color: var(--main-secondary-color);
   text-align: center;
   margin-top: 10%;
 }
 
 .footer-list {
   text-decoration: none;
-  float: left;
   width: 100%;
 }
 
 ul#footer-list-item li {
   display: inline;
   margin-right: 5px;
-  font-family: 'Raleway', sans-serif;
   font-size: medium;
   color: whitesmoke;
   padding: 10px;
