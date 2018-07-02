@@ -35,6 +35,7 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
+  padding: 1%;
 }
 
 p {
@@ -59,7 +60,7 @@ a:hover {
 
 /* Style the header */
 
-.nav_header {
+.nav-menu {
   float: right;
   width: 66%;
   height: 48px;
@@ -75,7 +76,7 @@ a:hover {
   z-index: 100;
 }
 
-ul#header {
+ul#nav-list {
   text-align: right;
   position: relative;
   height: inherit;
@@ -83,7 +84,7 @@ ul#header {
   margin-top: 2%; 
 }
 
-ul#header li {
+ul#nav-list li {
   display: inline;
   margin-right: 5px;
   font-family: 'Raleway', sans-serif;
@@ -93,17 +94,17 @@ ul#header li {
   padding: 10px;
 }
 
-ui#header li :hover {
+ui#nav-list li :hover {
   text-decoration: underline solid white
 }
 
-.image_div {
+.header-logo-container {
   float: left;
   width: 33%;
   height:48px;
 }
 
-img#header_image {
+img#header-logo {
   height: 48px;
   width: auto;
   padding-bottom: 0%;
@@ -122,7 +123,7 @@ img#header_image {
 
 /*Styling the hero unit.*/
 
-.hero-image-container {
+.hero-unit-image-container {
   position: relative;
   z-index: 0;
 }
@@ -137,7 +138,7 @@ img#header_image {
   padding-right: 20px;
 }
 
-.hero-section {
+.hero-unit {
   width: 100%;
   text-align: center;
   background: var(--main-secondary-color);
@@ -184,7 +185,7 @@ div.hero-section img {
 }
 
 .info-section-index {
-  height: 300px;
+  height: 250px;
   width: 60%;
   text-align: center;
   margin-left: auto;
@@ -246,13 +247,13 @@ div.hero-section img {
 
 /*Defining the styles for the images section.*/
 
-.image_section {
+.image-section {
   text-align: center;
   background: var(--main-secondary-color);
   padding: 20px;
 }
 
-.image {
+.image-preview {
   width: 33%;
   float: left;
 }
