@@ -183,6 +183,7 @@ div.hero-section img {
   margin-right: auto;
   margin-top: 10%;
   color: grey;
+  overflow: hidden;
 }
 
 .info-section-index {
@@ -237,7 +238,7 @@ div.hero-section img {
 .info-description-left {
   float: left;
   width: 33%;
-  vertical-align: auto;
+  vertical-align: middle;
 }
 
 .info-description-left-no-image {
